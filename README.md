@@ -1,4 +1,5 @@
 # OnCall
+[![Download on itch.io](https://img.shields.io/badge/Download-itch.io-fa5c5c?style=for-the-badge&logo=itchdotio)](https://mohammed45-ap.itch.io/oncall)
 
 تطبيق توظيف فوري بدون حسابات.
 
