@@ -26,7 +26,7 @@ oncall/
 ### السيرفر
 ```bash
 cd server
-python app.py
+python main.py
 ```
 ماذا تعلمت
 حل مشكلة OpenSSL على Android
