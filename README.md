@@ -1,2 +1,31 @@
-# oncall
-تطبيق توظيف بدون حسابات - Qt + Flask
+# OnCall
+
+تطبيق توظيف فوري بدون حسابات.
+
+## هيكل المشروع
+oncall/
+├── oncall-for-windows/ ← نسخة سطح المكتب
+├── oncall-for-android/ ← نسخة الموبايل (فيها حل OpenSSL)
+└── server/ ← API بـ Flask
+## التقنيات
+- **Client:** C++ / Qt 6
+- **Server:** Python / Flask
+- **Platforms:** Windows, Android
+
+## التشغيل
+
+### Windows
+افتح `oncall-for-windows/OnCall.pro` في QtCreator
+
+### Android
+افتح `oncall-for-android/OnCall.pro`
+> ملاحظة: لازم تضبط `QT_ANDROID_PACKAGE_SOURCE_DIR` في CMake
+
+### السيرفر
+``bash
+cd server
+python app.py
+
+ماذا تعلمت
+حل مشكلة OpenSSL على Android
+فصل builds للمنصات المختلفة
