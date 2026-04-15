@@ -24,10 +24,13 @@ oncall/
 > ملاحظة: لازم تضبط `QT_ANDROID_PACKAGE_SOURCE_DIR` في CMake
 
 ### السيرفر
-``bash
+```bash
 cd server
 python app.py
-
+```
 ماذا تعلمت
 حل مشكلة OpenSSL على Android
 فصل builds للمنصات المختلفة
+
+##عن المطور
+مطور بعمر 15 سنة من المغرب. أول مشروع full-stack.
