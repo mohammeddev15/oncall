@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>about</class>
+ <widget class="QMainWindow" name="about">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1146</width>
+    <height>866</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(10, 17, 40);
+color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="1">
+     <widget class="QPushButton" name="pushButton">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 0, 4);</string>
+      </property>
+      <property name="text">
+       <string>EXIT</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <spacer name="horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="1" column="0" colspan="2">
+     <widget class="QGroupBox" name="groupBox">
+      <property name="title">
+       <string>About</string>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QTextBrowser" name="textBrowser">
+         <property name="html">
+          <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-style:italic;&quot;&gt;Oncall: A Foundation for Modern Service Management&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-style:italic;&quot;&gt;In the dynamic landscape of service delivery, efficient management of requests is paramount. While many tools promise extensive features, the journey to a robust solution often begins with a strong, focused foundation. This is precisely what Oncall represents: a meticulously crafted application with a clear vision to simplify and enhance service request handling.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-style:italic;&quot;&gt;Oncall's Current Strengths: A Solid Core&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-style:italic;&quot;&gt;Currently, Oncall is built on key principles of clarity, directness, and stability. Its immediate advantages lie in its core functionality:&lt;/span&gt;&lt;/p&gt;
+&lt;ol style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;
+&lt;li style=&quot; font-size:10pt; font-style:italic;&quot; align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:-2px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Clear Order Presentation: Oncall excels at bringing your service request data to the forefront. It presents orders in a clean, tabular format, ensuring that critical information like ID, Address, Service, Price, Notes, and Status are immediately visible and easy to parse.&lt;/li&gt;
+&lt;li style=&quot; font-size:10pt; font-style:italic;&quot; align=&quot;center&quot; style=&quot; margin-top:2px; margin-bottom:-2px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Responsive Data Retrieval: Designed to fetch and display data from your backend server efficiently, Oncall ensures that the information you need is readily available within its intuitive interface.&lt;/li&gt;
+&lt;li style=&quot; font-size:10pt; font-style:italic;&quot; align=&quot;center&quot; style=&quot; margin-top:2px; margin-bottom:-2px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Modular &amp;amp; Maintainable Architecture: With a clear separation between its backend and frontend, Oncall is built for longevity and future growth. This structure allows for independent development and easier maintenance of each component.&lt;/li&gt;
+&lt;li style=&quot; font-size:10pt; font-style:italic;&quot; align=&quot;center&quot; style=&quot; margin-top:2px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;User-Focused Display: The application prioritizes a straightforward user interface, making it easy to view and understand the status of current service requests without unnecessary clutter.&lt;/li&gt;&lt;/ol&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-style:italic;&quot;&gt;Why Choose Oncall for Future Growth? The Vision:&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-style:italic;&quot;&gt;Oncall is more than just its current features; it's a platform poised for expansion, designed with future capabilities in mind. Choosing Oncall means investing in a system that:&lt;/span&gt;&lt;/p&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;
+&lt;li style=&quot; font-size:10pt; font-style:italic;&quot; align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:-2px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Will Evolve into a Centralized Hub: Oncall's foundation is laid to grow into a comprehensive dashboard for all service orders, centralizing tracking, communications, and management. This future vision includes robust features to eliminate scattered information and provide a unified operational view.&lt;/li&gt;
+&lt;li style=&quot; font-size:10pt; font-style:italic;&quot; align=&quot;center&quot; style=&quot; margin-top:2px; margin-bottom:-2px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Aims for Seamless Collaboration: The architectural choices support the future integration of advanced communication tools. Imagine effortless task assignment, real-time updates, and integrated team messaging, all designed to foster a more efficient and connected workflow.&lt;/li&gt;
+&lt;li style=&quot; font-size:10pt; font-style:italic;&quot; align=&quot;center&quot; style=&quot; margin-top:2px; margin-bottom:-2px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Is Designed for Real-time Insights: The current data fetching mechanism is the first step towards a system capable of providing instant status updates, advanced analytics, and data-driven reporting to optimize service delivery and decision-making.&lt;/li&gt;
+&lt;li style=&quot; font-size:10pt; font-style:italic;&quot; align=&quot;center&quot; style=&quot; margin-top:2px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Prioritizes Adaptability and Scalability: From its current capabilities, Oncall is being developed with an eye towards scaling from handling a few daily requests to managing complex enterprise-level operations, adapting to diverse workflows as it grows.&lt;/li&gt;&lt;/ul&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-style:italic;&quot;&gt;The Power Under the Hood: Oncall's Technologies&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-style:italic;&quot;&gt;Oncall is underpinned by a modern and efficient technology stack, chosen for its stability, performance, and flexibility, providing a strong basis for both current operations and future enhancements:&lt;/span&gt;&lt;/p&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;
+&lt;li style=&quot; font-size:10pt; font-style:italic;&quot; align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Backend (API &amp;amp; Server): Python with Flask:
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;&quot;&gt;
+&lt;li style=&quot; font-size:10pt; font-style:italic;&quot; align=&quot;center&quot; style=&quot; margin-top:3px; margin-bottom:-2px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Python: Selected for its clear syntax, versatility, and rich ecosystem of libraries, Python forms a highly maintainable and scalable core for the server-side logic.&lt;/li&gt;
+&lt;li style=&quot; font-size:10pt; font-style:italic;&quot; align=&quot;center&quot; style=&quot; margin-top:2px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Flask: A micro-framework that facilitates the rapid development of lightweight, powerful, and modular APIs. Flask ensures that Oncall's backend is efficient in handling data requests and responses, making it ideal for a responsive service management system.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li style=&quot; font-size:10pt; font-style:italic;&quot; align=&quot;center&quot; style=&quot; margin-top:2px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Frontend (User Interface): C++ with Qt:
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;&quot;&gt;
+&lt;li style=&quot; font-size:10pt; font-style:italic;&quot; align=&quot;center&quot; style=&quot; margin-top:3px; margin-bottom:-2px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;C++: Utilized for its exceptional performance, C++ ensures that Oncall's user interface is fast, responsive, and resource-efficient.&lt;/li&gt;
+&lt;li style=&quot; font-size:10pt; font-style:italic;&quot; align=&quot;center&quot; style=&quot; margin-top:2px; margin-bottom:-2px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Qt Framework: A leading cross-platform development framework, Qt provides the comprehensive tools necessary to build Oncall's native, interactive, and visually consistent graphical user interface (GUI). Qt enables the creation of desktop applications that offer a high-quality user experience across various operating systems.&lt;/li&gt;
+&lt;li style=&quot; font-size:10pt; font-style:italic;&quot; align=&quot;center&quot; style=&quot; margin-top:2px; margin-bottom:-2px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;QNetworkAccessManager: This critical Qt module manages all network communications, securely and efficiently handling HTTP requests to retrieve and send data to the Flask backend.&lt;/li&gt;
+&lt;li style=&quot; font-size:10pt; font-style:italic;&quot; align=&quot;center&quot; style=&quot; margin-top:2px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;QTableWidget: At the heart of Oncall's data display, QTableWidget offers a flexible and robust way to present service order information in a clear, tabular format, supporting features like dynamic column sizing and potential future text wrapping for detailed entries.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li style=&quot; font-size:10pt; font-style:italic;&quot; align=&quot;center&quot; style=&quot; margin-top:2px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Data Handling:
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;&quot;&gt;
+&lt;li style=&quot; font-size:10pt; font-style:italic;&quot; align=&quot;center&quot; style=&quot; margin-top:3px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;JSON (JavaScript Object Notation): As the standard lightweight data-interchange format, JSON is employed for all data transactions between the Qt/C++ frontend and the Flask/Python backend, ensuring smooth, efficient, and structured communication.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-style:italic;&quot;&gt;Conclusion:&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-style:italic;&quot;&gt;Oncall is being meticulously developed as a foundational application for streamlined service management. While its current iteration focuses on clear data presentation and robust backend communication, its underlying architecture and chosen technologies position it for significant future growth. Oncall offers a clear path towards transforming service request workflows, aiming to empower teams with unparalleled efficiency and insight in the very near future.&lt;/span&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-style:italic;&quot;&gt; Oncall: أساس متين لإدارة الخدمات الحديثة&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; dir='rtl' style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-style:italic;&quot;&gt;في المشهد الديناميكي لتقديم الخدمات، تعد الإدارة الفعالة للطلبات أمرًا بالغ الأهمية. بينما تعد العديد من الأدوات بميزات واسعة النطاق، غالبًا ما تبدأ الرحلة نحو حل قوي بأساس متين ومركّز. هذا هو بالضبط ما يمثله Oncall: تطبيق مصمم بدقة برؤية واضحة لتبسيط وتعزيز التعامل مع طلبات الخدمة.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; dir='rtl' style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-style:italic;&quot;&gt;نقاط قوة Oncall الحالية: جوهر صلب&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; dir='rtl' style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-style:italic;&quot;&gt;حاليًا، تم بناء Oncall على مبادئ أساسية تتمثل في الوضوح، والمباشرة، والاستقرار. تكمن مزاياه الفورية في وظائفه الأساسية:&lt;/span&gt;&lt;/p&gt;
+&lt;ol style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;
+&lt;li style=&quot; font-size:10pt; font-style:italic;&quot; align=&quot;center&quot; dir='rtl' style=&quot; margin-top:12px; margin-bottom:-2px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;عرض واضح للطلبات: يتفوق Oncall في إبراز بيانات طلبات الخدمة الخاصة بك. يعرض الطلبات بتنسيق جدولي نظيف، مما يضمن أن المعلومات الهامة مثل المعرّف (ID)، والعنوان (Address)، والخدمة (Service)، والسعر (Price)، والملاحظات (Notes)، والحالة (Status) تكون مرئية على الفور وسهلة التحليل.&lt;/li&gt;
+&lt;li style=&quot; font-size:10pt; font-style:italic;&quot; align=&quot;center&quot; dir='rtl' style=&quot; margin-top:2px; margin-bottom:-2px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;استرجاع سريع للبيانات: صمم Oncall لجلب وعرض البيانات من خادم الواجهة الخلفية بكفاءة، مما يضمن أن المعلومات التي تحتاجها متاحة بسهولة داخل واجهته البديهية.&lt;/li&gt;
+&lt;li style=&quot; font-size:10pt; font-style:italic;&quot; align=&quot;center&quot; dir='rtl' style=&quot; margin-top:2px; margin-bottom:-2px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;هندسة معمارية معيارية وقابلة للصيانة: مع فصل واضح بين الواجهة الخلفية والواجهة الأمامية، تم بناء Oncall ليدوم ولينمو في المستقبل. تسمح هذه البنية بالتطوير المستقل والصيانة الأسهل لكل مكون.&lt;/li&gt;
+&lt;li style=&quot; font-size:10pt; font-style:italic;&quot; align=&quot;center&quot; dir='rtl' style=&quot; margin-top:2px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;عرض يركز على المستخدم: يعطي التطبيق الأولوية لواجهة مستخدم مباشرة، مما يسهل عرض وفهم حالة طلبات الخدمة الحالية دون فوضى غير ضرورية.&lt;/li&gt;&lt;/ol&gt;
+&lt;p align=&quot;center&quot; dir='rtl' style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-style:italic;&quot;&gt;لماذا تختار Oncall للنمو المستقبلي؟ الرؤية:&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-style:italic;&quot;&gt;Oncall هو أكثر من مجرد ميزاته الحالية؛ إنه منصة مهيأة للتوسع، ومصممة مع وضع الإمكانيات المستقبلية في الاعتبار. اختيار Oncall يعني الاستثمار في نظام:&lt;/span&gt;&lt;/p&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;
+&lt;li style=&quot; font-size:10pt; font-style:italic;&quot; align=&quot;center&quot; dir='rtl' style=&quot; margin-top:12px; margin-bottom:-2px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;سيتطور ليصبح مركزًا موحدًا: تم وضع أساس Oncall لينمو ليصبح لوحة تحكم شاملة لجميع طلبات الخدمات، مما يركز التتبع، والاتصالات، والإدارة. تتضمن هذه الرؤية المستقبلية ميزات قوية للقضاء على المعلومات المتناثرة وتوفير رؤية تشغيلية موحدة.&lt;/li&gt;
+&lt;li style=&quot; font-size:10pt; font-style:italic;&quot; align=&quot;center&quot; dir='rtl' style=&quot; margin-top:2px; margin-bottom:-2px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;يهدف إلى التعاون السلس: تدعم الخيارات المعمارية التكامل المستقبلي لأدوات الاتصال المتقدمة. تخيل تخصيص المهام بسهولة، وتحديثات في الوقت الفعلي، ومراسلة فريق متكاملة، وكلها مصممة لتعزيز سير عمل أكثر كفاءة وترابطًا.&lt;/li&gt;
+&lt;li style=&quot; font-size:10pt; font-style:italic;&quot; align=&quot;center&quot; dir='rtl' style=&quot; margin-top:2px; margin-bottom:-2px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;مصمم للحصول على رؤى في الوقت الفعلي: تعد آلية جلب البيانات الحالية هي الخطوة الأولى نحو نظام قادر على توفير تحديثات فورية للحالة، وتحليلات متقدمة، وتقارير تعتمد على البيانات لتحسين تقديم الخدمة واتخاذ القرار.&lt;/li&gt;
+&lt;li style=&quot; font-size:10pt; font-style:italic;&quot; align=&quot;center&quot; dir='rtl' style=&quot; margin-top:2px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;يعطي الأولوية للتكيف وقابلية التوسع: من قدراته الحالية، يتم تطوير Oncall مع وضع هدف التوسع في الاعتبار من التعامل مع عدد قليل من الطلبات اليومية إلى إدارة العمليات المعقدة على مستوى المؤسسات الكبيرة، والتكيف مع سير العمل المتنوع مع نموه.&lt;/li&gt;&lt;/ul&gt;
+&lt;p align=&quot;center&quot; dir='rtl' style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-style:italic;&quot;&gt;القوة الكامنة: تقنيات Oncall&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; dir='rtl' style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-style:italic;&quot;&gt;يعتمد Oncall على مجموعة تقنيات حديثة وفعالة، تم اختيارها لاستقرارها، وأدائها، ومرونتها، مما يوفر أساسًا قويًا لكل من العمليات الحالية والتحسينات المستقبلية:&lt;/span&gt;&lt;/p&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;
+&lt;li style=&quot; font-size:10pt; font-style:italic;&quot; align=&quot;center&quot; dir='rtl' style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;الخلفية (API والخادم): Python مع Flask:
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;&quot;&gt;
+&lt;li style=&quot; font-size:10pt; font-style:italic;&quot; align=&quot;center&quot; dir='rtl' style=&quot; margin-top:3px; margin-bottom:-2px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Python: تم اختياره لبساطة بناء جملته، وتعدد استخداماته، ونظامه البيئي الغني بالمكتبات، يشكل Python جوهرًا عاليًا للصيانة وقابلية التوسع للمنطق من جانب الخادم.&lt;/li&gt;
+&lt;li style=&quot; font-size:10pt; font-style:italic;&quot; align=&quot;center&quot; dir='rtl' style=&quot; margin-top:2px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Flask: إطار عمل مصغر يسهل التطوير السريع لواجهات برمجة التطبيقات (APIs) خفيفة الوزن، والقوية، والمعيارية. يضمن Flask أن تكون الواجهة الخلفية لـ Oncall فعالة في التعامل مع طلبات البيانات واستجاباتها، مما يجعله مثاليًا لنظام إدارة خدمة سريع الاستجابة.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li style=&quot; font-size:10pt; font-style:italic;&quot; align=&quot;center&quot; dir='rtl' style=&quot; margin-top:2px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;الواجهة الأمامية (واجهة المستخدم): C++ مع Qt:
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;&quot;&gt;
+&lt;li style=&quot; font-size:10pt; font-style:italic;&quot; align=&quot;center&quot; dir='rtl' style=&quot; margin-top:3px; margin-bottom:-2px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;C++: تستخدم C++ لأدائها الاستثنائي، وتضمن أن تكون واجهة مستخدم Oncall سريعة، ومتجاوبة، وفعالة في استخدام الموارد.&lt;/li&gt;
+&lt;li style=&quot; font-size:10pt; font-style:italic;&quot; align=&quot;center&quot; dir='rtl' style=&quot; margin-top:2px; margin-bottom:-2px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;إطار عمل Qt: إطار عمل رائد لتطوير التطبيقات عبر الأنظمة الأساسية، يوفر Qt الأدوات الشاملة اللازمة لبناء واجهة المستخدم الرسومية (GUI) الأصلية، التفاعلية، والمتناسقة بصريًا لتطبيق Oncall. يتيح Qt إنشاء تطبيقات سطح المكتب التي تقدم تجربة مستخدم عالية الجودة عبر أنظمة التشغيل المختلفة.&lt;/li&gt;
+&lt;li style=&quot; font-size:10pt; font-style:italic;&quot; align=&quot;center&quot; dir='rtl' style=&quot; margin-top:2px; margin-bottom:-2px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;QNetworkAccessManager: تدير هذه الوحدة الحيوية في Qt جميع اتصالات الشبكة، حيث تتعامل بشكل آمن وفعال مع طلبات HTTP لجلب وإرسال البيانات إلى الواجهة الخلفية لـ Flask.&lt;/li&gt;
+&lt;li style=&quot; font-size:10pt; font-style:italic;&quot; align=&quot;center&quot; dir='rtl' style=&quot; margin-top:2px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;QTableWidget: في صميم عرض البيانات في Oncall، يوفر QTableWidget طريقة مرنة وقوية لتقديم معلومات طلب الخدمة بتنسيق جدولي واضح، ويدعم ميزات مثل تغيير حجم الأعمدة الديناميكي ولف النص المحتمل للإدخالات المفصلة في المستقبل.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li style=&quot; font-size:10pt; font-style:italic;&quot; align=&quot;center&quot; dir='rtl' style=&quot; margin-top:2px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;معالجة البيانات:
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;&quot;&gt;
+&lt;li style=&quot; font-size:10pt; font-style:italic;&quot; align=&quot;center&quot; dir='rtl' style=&quot; margin-top:3px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;JSON (JavaScript Object Notation): كتنسيق قياسي خفيف الوزن لتبادل البيانات، يتم استخدام JSON لجميع معاملات البيانات بين الواجهة الأمامية Qt/C++ والواجهة الخلفية Flask/Python، مما يضمن اتصالًا سلسًا، وفعالًا، ومنظمًا.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;p align=&quot;center&quot; dir='rtl' style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-style:italic;&quot;&gt;الخاتمة:&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; dir='rtl' style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-style:italic;&quot;&gt;يجري تطوير Oncall بعناية كتطبيق أساسي لإدارة الخدمات المبسطة. بينما يركز تكراره الحالي على عرض البيانات الواضح والاتصال القوي بالواجهة الخلفية، فإن بنيته الأساسية والتقنيات المختارة تضعه في موقع للنمو المستقبلي الكبير. يقدم Oncall مسارًا واضحًا نحو تحويل سير عمل طلبات الخدمة، بهدف تمكين الفرق بكفاءة لا مثيل لها ورؤى في المستقبل القريب جدًا.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1146</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

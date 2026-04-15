@@ -1,0 +1,29 @@
+{
+	"BUILD_DIR" : "C:/Users/admin/Documents/_Oncall_/_Oncall__autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/admin/Documents/_Oncall_",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/admin/Documents/_Oncall_",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/admin/Documents/_Oncall_",
+	"CMAKE_SOURCE_DIR" : "C:/Users/admin/Documents/_Oncall_",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "C:/Users/admin/Documents/_Oncall_/_Oncall__autogen/include",
+	"INPUTS" : 
+	[
+		"C:/Users/admin/Documents/_Oncall_/app-icon-for-search-request-or-fithe-icon.png",
+		"C:/Users/admin/Documents/_Oncall_/professional-logo-fored-as-a-sta.png",
+		"C:/Users/admin/Documents/_Oncall_/be-a-dra (1).png",
+		"C:/Users/admin/Documents/_Oncall_/professional-logo-for-oncall-app-designed-as-a-sta.jpeg",
+		"C:/Users/admin/Documents/_Oncall_/app-icon-for-an-about-page-the-icon-sh-a-dr.png"
+	],
+	"LOCK_FILE" : "C:/Users/admin/Documents/_Oncall_/CMakeFiles/_Oncall__autogen.dir/AutoRcc_sources_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "sources" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_sources.cpp",
+	"RCC_EXECUTABLE" : "C:/Qt/6.5.3/mingw_64/./bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/Users/admin/Documents/_Oncall_/CMakeFiles/_Oncall__autogen.dir/AutoRcc_sources_EWIEGA46WW_Used.txt",
+	"SOURCE" : "C:/Users/admin/Documents/_Oncall_/sources.qrc",
+	"USE_BETTER_GRAPH" : false,
+	"VERBOSITY" : 0
+}

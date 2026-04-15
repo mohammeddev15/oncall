@@ -1,0 +1,17 @@
+C:/Users/admin/Documents/_Oncall_/CMakeFiles/apk.dir
+C:/Users/admin/Documents/_Oncall_/CMakeFiles/aab.dir
+C:/Users/admin/Documents/_Oncall_/CMakeFiles/_Oncall_.dir
+C:/Users/admin/Documents/_Oncall_/CMakeFiles/_qt_internal_apk_dependencies.dir
+C:/Users/admin/Documents/_Oncall_/CMakeFiles/apk_all.dir
+C:/Users/admin/Documents/_Oncall_/CMakeFiles/qt_internal_plugins.dir
+C:/Users/admin/Documents/_Oncall_/CMakeFiles/_Oncall__prepare_apk_dir.dir
+C:/Users/admin/Documents/_Oncall_/CMakeFiles/_Oncall__make_apk.dir
+C:/Users/admin/Documents/_Oncall_/CMakeFiles/_Oncall__make_aab.dir
+C:/Users/admin/Documents/_Oncall_/CMakeFiles/edit_cache.dir
+C:/Users/admin/Documents/_Oncall_/CMakeFiles/rebuild_cache.dir
+C:/Users/admin/Documents/_Oncall_/CMakeFiles/list_install_components.dir
+C:/Users/admin/Documents/_Oncall_/CMakeFiles/install.dir
+C:/Users/admin/Documents/_Oncall_/CMakeFiles/install/local.dir
+C:/Users/admin/Documents/_Oncall_/CMakeFiles/install/strip.dir
+C:/Users/admin/Documents/_Oncall_/CMakeFiles/_Oncall__autogen_timestamp_deps.dir
+C:/Users/admin/Documents/_Oncall_/CMakeFiles/_Oncall__autogen.dir

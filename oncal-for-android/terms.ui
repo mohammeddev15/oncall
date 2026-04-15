@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Terms</class>
+ <widget class="QMainWindow" name="Terms">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>738</width>
+    <height>839</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(10, 17, 40);
+color: rgb(0, 0, 0);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <spacer name="horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>631</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="0" column="1">
+     <widget class="QPushButton" name="pushButton">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 255, 21);
+color: rgb(0, 0, 0);
+font: 10pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>greet</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" colspan="2">
+     <widget class="QGroupBox" name="groupBox">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 11pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="title">
+       <string>Terms of Service</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="0">
+        <widget class="QTextBrowser" name="textBrowser">
+         <property name="html">
+          <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;h3 dir='rtl' style=&quot; margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:large; font-weight:700;&quot;&gt;شروط وعروض الخدمة لتطبيق oncall&lt;/span&gt;&lt;/h3&gt;
+&lt;p dir='rtl' style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;المادة 1: القبول والالتزام&lt;/span&gt; باستخدامك لهذا التطبيق، فإنك تقر صراحةً باطلاعك وموافقتك على هذه الشروط. تسري هذه الاتفاقية على كافة المستخدمين بغض النظر عن جنسيتهم أو مكان إقامتهم.&lt;/p&gt;
+&lt;p dir='rtl' style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;المادة 2: طبيعة التطبيق وإخلاء المسؤولية&lt;/span&gt; يعمل التطبيق كمنصة تقنية للإعلانات فقط. نحن لا نتحقق من مصداقية الإعلانات أو هوية المعلنين. تقع مسؤولية التحقق من جدية عروض الشغل وصحة أرقام الهواتف على عاتق المستخدم وحده. لا يتحمل التطبيق أي مسؤولية عن أي أضرار مادية أو معنوية ناتجة عن التواصل عبر الأرقام المنشورة.&lt;/p&gt;
+&lt;p dir='rtl' style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;المادة 3: التزامات المستخدم والشروط التقنية&lt;/span&gt;&lt;/p&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;
+&lt;li style=&quot; font-family:'ui-sans-serif','system-ui','sans-serif','Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'; font-size:15px; color:#000000;&quot; align=&quot;right&quot; dir='rtl' style=&quot; margin-top:0px; margin-bottom:0px; margin-left:20px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#18ffff;&quot;&gt;يُمنع نشر محتوى غير قانوني، تضليلي، أو ماس بالكرامة.&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'ui-sans-serif','system-ui','sans-serif','Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'; font-size:15px; color:#18ffff;&quot; align=&quot;right&quot; dir='rtl' style=&quot; margin-top:0px; margin-bottom:0px; margin-left:20px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;يلتزم المستخدم بأن المعطيات المدخلة (خاصة أرقام الهواتف) هي معطيات يملك حق نشرها وتداولها.&lt;/li&gt;
+&lt;li style=&quot; font-family:'ui-sans-serif','system-ui','sans-serif','Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'; font-size:15px; color:#18ffff;&quot; align=&quot;right&quot; dir='rtl' style=&quot; margin-top:0px; margin-bottom:0px; margin-left:20px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;بما أن التطبيق لا يتطلب تسجيل دخول، فإن مجرد تصفحك المحتوى يعد بمثابة قبول ضمني بشروطنا.&lt;/li&gt;&lt;/ul&gt;
+&lt;p dir='rtl' style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;المادة 4: حماية المعطيات الشخصية (وفقاً للقانون 09.08)&lt;/span&gt; أنت توافق على أن نشرك لرقم هاتفك يجعل هذه المعلومة &amp;quot;علنية&amp;quot; ومتاحة للعموم. التطبيق غير مسؤول عن سوء استخدام هذه الأرقام من طرف الغير (مثل الاتصالات المزعجة أو التسويق غير المرغوب فيه).&lt;/p&gt;
+&lt;p dir='rtl' style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;المادة 5: القانون الواجب التطبيق&lt;/span&gt; تخضع هذه الشروط وكافة العلاقات الناشئة عن استخدام التطبيق &lt;span style=&quot; font-weight:700;&quot;&gt;للقانون المغربي حصراً&lt;/span&gt;. ويتم تفسير أي نزاع بناءً على التشريعات المغربية الجاري بها العمل.&lt;/p&gt;
+&lt;p dir='rtl' style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;المادة 6: بند الاختصاص القضائي (Clause de Compétence)&lt;/span&gt; في حالة حدوث أي نزاع يتعلق بتفسير أو تنفيذ هذه الشروط، أو ناتج عن استخدام التطبيق، فإن &lt;span style=&quot; font-weight:700;&quot;&gt;القضاء المغربي هو المختص حصراً&lt;/span&gt; للنظر في النزاع. وتكون &lt;span style=&quot; font-weight:700;&quot;&gt;المحاكم المغربية&lt;/span&gt; (تحديداً المحكمة التجارية في مدينة أكادير) هي الجهة الوحيدة المختصة مكانياً ونوعياً للفصل في أي ادعاء، وذلك مع مراعاة القواعد الآمرة المتعلقة بحماية المستهلك التي قد تمنح الاختصاص لمحكمة موطن المستهلك في حالات معينة وفقاً للمادة 111 من القانون 31.08.&lt;/p&gt;
+&lt;p dir='rtl' style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;المادة 7: التعديلات&lt;/span&gt; يحتفظ التطبيق بالحق في تعديل هذه الشروط في أي وقت، وتصبح التعديلات سارية المفعول بمجرد تحديثها في هذه الصفحة.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>738</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
